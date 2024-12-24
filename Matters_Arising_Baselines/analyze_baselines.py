@@ -12,8 +12,8 @@ num_iterations = args.num_iterations
 
 for model_name in ["XGB","RF","MLP"]:
     for features_name in ["OH","FP","AGILEdesc"]:
-        for cell_line in ["RAW"]:
-            for split_name in ["library"]:
+        for cell_line in ["HeLa","RAW"]:
+            for split_name in ["murcko","library"]:
                 folder_name = os.path.join(run_name,model_name,features_name,cell_line,split_name)
                 print("\n"+folder_name + " Results")
                 if split_name=="murcko":

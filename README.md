@@ -12,7 +12,7 @@ python run_RAW_finetuning.py <run_name> 10 8 <device>
 Models and predictions will appear in the directory `finetune/<run_name>_<split>_<cell>`.
 Analysis can be done via:
 ```
-python run_finetuning_analysis.py <run_name>_<split>_<cell> 8 10 --<split>
+python run_finetuning_analysis.py <run_name>_<split>_<cell> 10 8 --<split>
 ```
 Use `--savepreds` to save ensemble predictions for the Murcko split.
 

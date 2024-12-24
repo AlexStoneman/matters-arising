@@ -55,8 +55,8 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument("run_name", type=str, help="Beginning of summary file name")
-    parser.add_argument("num_HP_sets", type=int, help="Number of different hyperparameter sets")
     parser.add_argument("num_iterations", type=int, help="Number of iterations of training")
+    parser.add_argument("num_HP_sets", type=int, help="Number of different hyperparameter sets")
     parser.add_argument("--scaffold", action=argparse.BooleanOptionalAction)
     parser.add_argument("--library", action=argparse.BooleanOptionalAction)
     parser.add_argument("--savepreds", action=argparse.BooleanOptionalAction, help="Save ensemble predictions for murcko split")
