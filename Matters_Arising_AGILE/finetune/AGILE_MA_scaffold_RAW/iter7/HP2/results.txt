@@ -1,0 +1,6 @@
+
+Results for finetune/AGILE_MA_scaffold_RAW/iter7/HP2/checkpoints
+Testing model epoch 15
+Best validation RMSE: 1.467, Corr: 0.016
+Test loss: 2.0447
+Test RMSE: 1.430, Test Corr: 0.283
