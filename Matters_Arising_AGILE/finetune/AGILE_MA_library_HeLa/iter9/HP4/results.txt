@@ -1,0 +1,6 @@
+
+Results for finetune/AGILE_MA_library_HeLa/iter9/HP4/checkpoints
+Testing model epoch 7
+Best validation RMSE: 2.565, Corr: 0.414
+Test loss: 7.8348
+Test RMSE: 2.799, Test Corr: 0.472
