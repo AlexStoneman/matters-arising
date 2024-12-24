@@ -1,0 +1,21 @@
+name: AGILE_Matters_Arising
+channels:
+  - defaults
+  - conda-forge
+  - pyg
+  - pytorch
+  - nvidia
+dependencies:
+  - conda-forge::rdkit
+  - matplotlib
+  - molvs
+  - pandas
+  - pytorch
+  - pytorch-cuda=12.4
+  - scikit-learn
+  - torchaudio
+  - torchvision
+  - xgboost
+  - pyyaml
+  - tensorboard
+  - pyg
